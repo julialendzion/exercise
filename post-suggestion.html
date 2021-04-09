@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="post-suggestion.html"> Add a post</a>
+    </nav>
+
+    <p class="hidden">Thank you! We will verify your post shortly</p>
+<form>
+  <label for="post_title">Title</label>
+  <input type="text" name="title" required id="post_title">
+
+  <label for="post_username">Username</label>
+  <input type="text" name="username" required id="post_username">
+
+  <label for="post_content">Post</label>
+  <textarea  name="content" required id="post_content" required></textarea>
+
+  <input id="button" type="submit" value="Send">
+
+</form>
+
+<script src="post-suggestion.js"></script>
+  </body>
+</html>
+
+<!---
+  "username": "julka",
+  "content": "This is a post in my database",
+ 
+  "_created": "2021-04-08T13:02:57.642Z",
+  "_changed": "2021-04-08T13:15:26.472Z",
+  "_createdby": "julka.lendzion@gmail.com",
+  "_changedby": "julka.lendzion@gmail.com",
+  "_version": 1,
+  "title": "First post"

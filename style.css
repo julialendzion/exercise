@@ -1,0 +1,119 @@
+/*inex html*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #e4e5e6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 600;
+  margin-bottom: 3vw;
+}
+nav a {
+}
+
+nav a:link {
+  text-decoration: none;
+  font-size: 4vw;
+  color: black;
+}
+nav a:visited {
+  text-decoration: none;
+  font-size: 4vw;
+  color: black;
+}
+nav a:hover {
+  text-decoration: none;
+  font-size: 4vw;
+  color: grey;
+}
+nav a:active {
+}
+
+article {
+  padding: 2vw;
+  margin: 5vw;
+  background-color: #f7fbfd;
+}
+article h2 {
+  text-transform: uppercase;
+  font-size: 2.5vw;
+}
+article h3 {
+  font-weight: 100;
+  margin-left: 2vw;
+  margin-top: -1vw;
+}
+article a {
+  color: lightslategrey;
+  margin-left: 2vw;
+}
+
+/*article html*/
+#postinarticle h1,
+h2 {
+  margin-left: 2vw;
+}
+#postinarticle {
+  background-color: #f7fbfd;
+  margin-bottom: 5vw;
+  padding: 2vw;
+}
+
+#postinarticle p {
+  margin-left: 2vw;
+  margin-top: -2vw;
+  font-weight: 100;
+}
+
+#postinarticle h2 {
+  font-size: 2.5vw;
+  font-weight: 300;
+}
+
+#comment {
+  margin: 5vw;
+  background-color: #f7fbfd;
+  padding: 0.5vw;
+  box-shadow: 2px 0px 14px -3px rgba(173, 168, 173, 1);
+}
+
+#comment h3 {
+  font-weight: 300;
+  margin-left: 2vw;
+}
+#comment p {
+  font-weight: 100;
+  margin-left: 1vw;
+}
+
+/*post suggestion*/
+
+.hidden {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e4e5e6;
+  padding: 5vw;
+  box-shadow: 2px 0px 14px -3px rgba(173, 168, 173, 1);
+}
+
+form input {
+  margin: 2vw;
+}
+
+form textarea {
+  margin: 2vw;
+}
+
+#button {
+}
